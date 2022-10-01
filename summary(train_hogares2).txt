@@ -1,0 +1,25 @@
+> summary(train_hogares2)
+      id            Clase          P5010        P5090          Nper           Npersug          Ingtotug       
+ Length:164960      1:149448   Min.   : 1.000   1:61977   Min.   : 1.000   Min.   : 1.000   Min.   :       0  
+ Class :character   2: 15512   1st Qu.: 1.000   2: 5617   1st Qu.: 2.000   1st Qu.: 2.000   1st Qu.:  800000  
+ Mode  :character              Median : 2.000   3:64596   Median : 3.000   Median : 3.000   Median : 1400000  
+                               Mean   : 1.989   4:24930   Mean   : 3.291   Mean   : 3.278   Mean   : 2092365  
+                               3rd Qu.: 3.000   5: 7680   3rd Qu.: 4.000   3rd Qu.: 4.000   3rd Qu.: 2500000  
+                               Max.   :15.000   6:  160   Max.   :22.000   Max.   :22.000   Max.   :85833333  
+                                                                                                              
+  Ingtotugarr          Ingpcug               Lp         Pobre       Ingtot_hogar        personas_h     mujer_jh 
+ Min.   :       0   Min.   :       0   Min.   :167222   0:131936   Min.   :       0   Min.   : 0.200   0:68597  
+ 1st Qu.:  900000   1st Qu.:  300000   1st Qu.:275548   1: 33024   1st Qu.:  800000   1st Qu.: 1.000   1:96363  
+ Median : 1581242   Median :  544000   Median :279945              Median : 1400000   Median : 1.500            
+ Mean   : 2309190   Mean   :  871981   Mean   :271503              Mean   : 2104065   Mean   : 1.728            
+ 3rd Qu.: 2786762   3rd Qu.:  987722   3rd Qu.:285650              3rd Qu.: 2517500   3rd Qu.: 2.000            
+ Max.   :88833333   Max.   :88833333   Max.   :303817              Max.   :85833333   Max.   :14.000            
+                                                                                                                
+    edad_jh       edu_jh    salud_jh  trabajo_ocu_jh  pension_jh ocu_jh    
+ Min.   : 11.00   1: 8636   0: 9750   4      :58239   0:47586    0: 47584  
+ 1st Qu.: 36.00   2:   11   1:79606   0      :47584   1:46060    1:117376  
+ Median : 49.00   3:46516   2: 9286   1      :39313   2:67803              
+ Mean   : 49.58   4:21728   3:66264   2      : 7722   3: 3511              
+ 3rd Qu.: 61.00   5:42871   9:   54   5      : 6409                        
+ Max.   :108.00   6:45175             3      : 2872                        
+                  9:   23             (Other): 2821                        

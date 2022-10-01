@@ -1,0 +1,15 @@
+> ols
+Linear Regression 
+
+164960 samples
+     8 predictor
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 148463, 148463, 148464, 148464, 148465, 148464, ... 
+Resampling results:
+
+  RMSE     Rsquared   MAE    
+  2168636  0.2575818  1166884
+
+Tuning parameter 'intercept' was held constant at a value of TRUE

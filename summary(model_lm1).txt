@@ -1,0 +1,35 @@
+> summary(model_lm1)
+
+Call:
+lm(formula = Ingtotug ~ Clase + personas_h + Npersug + mujer_jh + 
+    edad_jh + salud_jh + edu_jh + ocu_jh, data = trtrain)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-5340727  -973779  -255431   488546 75599584 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -2008519.1    54787.2 -36.660  < 2e-16 ***
+Clase2       -326344.6    23295.4 -14.009  < 2e-16 ***
+personas_h   -222769.9     9634.0 -23.123  < 2e-16 ***
+Npersug       320045.0     4305.8  74.329  < 2e-16 ***
+mujer_jh1     270596.1    13571.7  19.938  < 2e-16 ***
+edad_jh        30354.8      487.8  62.227  < 2e-16 ***
+salud_jh1     853680.4    28529.4  29.923  < 2e-16 ***
+salud_jh2    1499731.0    38566.6  38.887  < 2e-16 ***
+salud_jh3    -186381.0    28605.9  -6.515 7.28e-11 ***
+salud_jh9     472882.4   343168.0   1.378    0.168    
+edu_jh2       311064.8   818363.9   0.380    0.704    
+edu_jh3       300716.8    30792.5   9.766  < 2e-16 ***
+edu_jh4       590880.7    34414.4  17.170  < 2e-16 ***
+edu_jh5       794449.7    33401.8  23.785  < 2e-16 ***
+edu_jh6      2253737.5    34550.7  65.230  < 2e-16 ***
+edu_jh9        39178.3   510847.7   0.077    0.939    
+ocu_jh1       545913.7    15897.8  34.339  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2164000 on 115456 degrees of freedom
+Multiple R-squared:  0.2582,	Adjusted R-squared:  0.2581 
+F-statistic:  2511 on 16 and 115456 DF,  p-value: < 2.2e-16

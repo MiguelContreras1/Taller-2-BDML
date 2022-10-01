@@ -1,0 +1,53 @@
+> summary(logit1)
+
+Call:
+glm(formula = modelo1, family = binomial(link = "logit"), data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.7156  -0.6152  -0.3338  -0.1482   3.3735  
+
+Coefficients: (1 not defined because of singularities)
+                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     -0.3089045  0.0653563  -4.726 2.28e-06 ***
+personas_h       0.6947253  0.0098625  70.441  < 2e-16 ***
+P50902           0.4024361  0.0576636   6.979 2.97e-12 ***
+P50903           0.5829489  0.0209799  27.786  < 2e-16 ***
+P50904           0.0723233  0.0253781   2.850  0.00437 ** 
+P50905           1.0010981  0.0333961  29.976  < 2e-16 ***
+P50906           0.9816418  0.2190448   4.481 7.41e-06 ***
+mujer_jh1       -0.1101729  0.0174134  -6.327 2.50e-10 ***
+edad_jh         -0.0213245  0.0006532 -32.645  < 2e-16 ***
+salud_jh1       -1.1205450  0.0362231 -30.935  < 2e-16 ***
+salud_jh2       -1.4104744  0.0719783 -19.596  < 2e-16 ***
+salud_jh3        0.3673217  0.0297853  12.332  < 2e-16 ***
+salud_jh9       -0.2224769  0.4166200  -0.534  0.59334    
+edu_jh2         -0.5565240  0.7824152  -0.711  0.47690    
+edu_jh3         -0.4161817  0.0313606 -13.271  < 2e-16 ***
+edu_jh4         -0.7212146  0.0364015 -19.813  < 2e-16 ***
+edu_jh5         -0.8179371  0.0354570 -23.068  < 2e-16 ***
+edu_jh6         -1.4304336  0.0402823 -35.510  < 2e-16 ***
+edu_jh9         -0.8527469  0.7522425  -1.134  0.25696    
+trabajo_ocu_jh1 -1.3413074  1.6165103  -0.830  0.40668    
+trabajo_ocu_jh2 -2.1370789  1.6210146  -1.318  0.18738    
+trabajo_ocu_jh3 -1.1987795  1.6172112  -0.741  0.45853    
+trabajo_ocu_jh4 -0.6787267  1.6162134  -0.420  0.67452    
+trabajo_ocu_jh5 -1.7460517  1.6172744  -1.080  0.28031    
+trabajo_ocu_jh6 -0.0074099  1.6199562  -0.005  0.99635    
+trabajo_ocu_jh7  0.4704800  1.6282057   0.289  0.77261    
+trabajo_ocu_jh8 -1.6858072  1.6179924  -1.042  0.29745    
+trabajo_ocu_jh9 -0.9729251  1.7043247  -0.571  0.56810    
+pension_jh1      0.1029767  1.6165417   0.064  0.94921    
+pension_jh2      0.0557645  1.6161094   0.035  0.97247    
+pension_jh3     -1.4045238  1.6301010  -0.862  0.38890    
+ocu_jh1                 NA         NA      NA       NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 132070  on 131967  degrees of freedom
+Residual deviance:  98898  on 131937  degrees of freedom
+AIC: 98960
+
+Number of Fisher Scoring iterations: 7

@@ -1,0 +1,38 @@
+> summary(logit3)
+
+Call:
+glm(formula = modelo3, family = binomial(link = "logit"), data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.4643  -0.6139  -0.3324  -0.1962   3.0277  
+
+Coefficients:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  0.2035634  0.0611459   3.329 0.000871 ***
+Clase2      -0.1228857  0.0250121  -4.913 8.97e-07 ***
+personas_h   0.4865407  0.0110476  44.040  < 2e-16 ***
+Npersug      0.1833536  0.0050160  36.554  < 2e-16 ***
+mujer_jh1   -0.1170546  0.0170877  -6.850 7.37e-12 ***
+edad_jh     -0.0267240  0.0006265 -42.653  < 2e-16 ***
+salud_jh1   -1.4315738  0.0320838 -44.620  < 2e-16 ***
+salud_jh2   -1.9290847  0.0683823 -28.210  < 2e-16 ***
+salud_jh3    0.2722987  0.0292759   9.301  < 2e-16 ***
+salud_jh9   -0.1890501  0.4055193  -0.466 0.641078    
+edu_jh2     -0.5181033  0.7584322  -0.683 0.494528    
+edu_jh3     -0.4926491  0.0314968 -15.641  < 2e-16 ***
+edu_jh4     -0.7756534  0.0367317 -21.117  < 2e-16 ***
+edu_jh5     -0.8614430  0.0358398 -24.036  < 2e-16 ***
+edu_jh6     -1.4627136  0.0403531 -36.248  < 2e-16 ***
+edu_jh9     -0.9785635  0.7478588  -1.308 0.190708    
+ocu_jh1     -0.8117014  0.0192479 -42.171  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 132070  on 131967  degrees of freedom
+Residual deviance: 100403  on 131951  degrees of freedom
+AIC: 100437
+
+Number of Fisher Scoring iterations: 6

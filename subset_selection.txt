@@ -1,0 +1,43 @@
+> summary(best)
+Subset selection object
+Call: regsubsets.formula(Ingtotug ~ Clase + personas_h + Npersug + 
+    mujer_jh + edad_jh + salud_jh + edu_jh + ocu_jh, method = "exhaustive", 
+    data = train_hogares2)
+16 Variables  (and intercept)
+           Forced in Forced out
+Clase2         FALSE      FALSE
+personas_h     FALSE      FALSE
+Npersug        FALSE      FALSE
+mujer_jh1      FALSE      FALSE
+edad_jh        FALSE      FALSE
+salud_jh1      FALSE      FALSE
+salud_jh2      FALSE      FALSE
+salud_jh3      FALSE      FALSE
+salud_jh9      FALSE      FALSE
+edu_jh2        FALSE      FALSE
+edu_jh3        FALSE      FALSE
+edu_jh4        FALSE      FALSE
+edu_jh5        FALSE      FALSE
+edu_jh6        FALSE      FALSE
+edu_jh9        FALSE      FALSE
+ocu_jh1        FALSE      FALSE
+1 subsets of each size up to 8
+Selection Algorithm: exhaustive
+         Clase2 personas_h Npersug mujer_jh1 edad_jh salud_jh1 salud_jh2 salud_jh3 salud_jh9 edu_jh2 edu_jh3 edu_jh4
+1  ( 1 ) " "    " "        " "     " "       " "     " "       " "       " "       " "       " "     " "     " "    
+2  ( 1 ) " "    " "        " "     " "       " "     " "       " "       "*"       " "       " "     " "     " "    
+3  ( 1 ) " "    " "        "*"     " "       " "     " "       " "       "*"       " "       " "     " "     " "    
+4  ( 1 ) " "    " "        "*"     " "       "*"     " "       " "       "*"       " "       " "     " "     " "    
+5  ( 1 ) " "    " "        "*"     " "       "*"     "*"       "*"       " "       " "       " "     " "     " "    
+6  ( 1 ) " "    " "        "*"     " "       "*"     "*"       "*"       " "       " "       " "     " "     " "    
+7  ( 1 ) " "    " "        "*"     " "       "*"     "*"       "*"       " "       " "       " "     " "     " "    
+8  ( 1 ) " "    "*"        "*"     " "       "*"     "*"       "*"       " "       " "       " "     " "     " "    
+         edu_jh5 edu_jh6 edu_jh9 ocu_jh1
+1  ( 1 ) " "     "*"     " "     " "    
+2  ( 1 ) " "     "*"     " "     " "    
+3  ( 1 ) " "     "*"     " "     " "    
+4  ( 1 ) " "     "*"     " "     " "    
+5  ( 1 ) " "     "*"     " "     " "    
+6  ( 1 ) " "     "*"     " "     "*"    
+7  ( 1 ) "*"     "*"     " "     "*"    
+8  ( 1 ) "*"     "*"     " "     "*"    

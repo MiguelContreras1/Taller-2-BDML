@@ -1,0 +1,43 @@
+> summary(probit2)
+
+Call:
+glm(formula = modelo4, family = binomial(link = "probit"), data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.1074  -0.6149  -0.3149  -0.1401   3.4170  
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -0.354055   0.038392  -9.222  < 2e-16 ***
+Clase2       0.041869   0.015205   2.754  0.00589 ** 
+personas_h   0.265094   0.006428  41.240  < 2e-16 ***
+P50902       0.230035   0.030503   7.541 4.65e-14 ***
+P50903       0.375244   0.012147  30.892  < 2e-16 ***
+P50904       0.066264   0.014399   4.602 4.18e-06 ***
+P50905       0.659953   0.019678  33.537  < 2e-16 ***
+P50906       0.634026   0.128025   4.952 7.33e-07 ***
+Npersug      0.118990   0.002923  40.704  < 2e-16 ***
+mujer_jh1   -0.071735   0.009742  -7.364 1.79e-13 ***
+edad_jh     -0.011993   0.000372 -32.241  < 2e-16 ***
+salud_jh1   -0.750427   0.018304 -40.998  < 2e-16 ***
+salud_jh2   -0.972107   0.034185 -28.437  < 2e-16 ***
+salud_jh3    0.202516   0.017403  11.637  < 2e-16 ***
+salud_jh9   -0.134141   0.235910  -0.569  0.56962    
+edu_jh2     -0.350839   0.464933  -0.755  0.45049    
+edu_jh3     -0.262047   0.018788 -13.948  < 2e-16 ***
+edu_jh4     -0.428777   0.021660 -19.796  < 2e-16 ***
+edu_jh5     -0.479481   0.021137 -22.684  < 2e-16 ***
+edu_jh6     -0.790937   0.023197 -34.096  < 2e-16 ***
+edu_jh9     -0.495260   0.419486  -1.181  0.23775    
+ocu_jh1     -0.501348   0.011108 -45.135  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 132070  on 131967  degrees of freedom
+Residual deviance:  98319  on 131946  degrees of freedom
+AIC: 98363
+
+Number of Fisher Scoring iterations: 6

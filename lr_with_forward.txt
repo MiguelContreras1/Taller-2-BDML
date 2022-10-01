@@ -1,0 +1,19 @@
+> forward
+Linear Regression with Forward Selection 
+
+164960 samples
+     8 predictor
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 148464, 148463, 148465, 148464, 148464, 148464, ... 
+Resampling results across tuning parameters:
+
+  nvmax  RMSE     Rsquared   MAE    
+  2      2300144  0.1633406  1282996
+  3      2252006  0.1981378  1218488
+  4      2220606  0.2203736  1216368
+
+RMSE was used to select the optimal model using the smallest value.
+The final value used for the model was nvmax = 4.
+> 

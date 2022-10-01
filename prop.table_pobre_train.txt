@@ -1,0 +1,4 @@
+> prop.table(table(train$Pobre))
+
+        0         1 
+0.8000121 0.1999879 

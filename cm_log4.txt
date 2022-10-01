@@ -1,0 +1,28 @@
+> cm_log4
+Confusion Matrix and Statistics
+
+          Reference
+Prediction     0     1
+         0 25003  1357
+         1  4343  2289
+                                          
+               Accuracy : 0.8272          
+                 95% CI : (0.8231, 0.8313)
+    No Information Rate : 0.8895          
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0.3532          
+                                          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.62781         
+            Specificity : 0.85201         
+         Pos Pred Value : 0.34514         
+         Neg Pred Value : 0.94852         
+             Prevalence : 0.11051         
+         Detection Rate : 0.06938         
+   Detection Prevalence : 0.20102         
+      Balanced Accuracy : 0.73991         
+                                          
+       'Positive' Class : 1               
+                               

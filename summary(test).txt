@@ -1,0 +1,33 @@
+> summary(test)
+      id            Clase         P5010       P5090          Nper           Npersug          Ingtotug       
+ Length:32992       1:29836   Min.   :1.000   1:12351   Min.   : 1.000   Min.   : 1.000   Min.   :       0  
+ Class :character   2: 3156   1st Qu.:1.000   2: 1097   1st Qu.: 2.000   1st Qu.: 2.000   1st Qu.:  790000  
+ Mode  :character             Median :2.000   3:12982   Median : 3.000   Median : 3.000   Median : 1388728  
+                              Mean   :1.972   4: 5016   Mean   : 3.277   Mean   : 3.265   Mean   : 2075570  
+                              3rd Qu.:3.000   5: 1510   3rd Qu.: 4.000   3rd Qu.: 4.000   3rd Qu.: 2500000  
+                              Max.   :9.000   6:   36   Max.   :22.000   Max.   :22.000   Max.   :62166667  
+                                                                                                            
+  Ingtotugarr          Ingpcug               Lp         Pobre      Ingtot_hogar        personas_h     mujer_jh 
+ Min.   :       0   Min.   :       0   Min.   :167222   0:26360   Min.   :       0   Min.   : 0.200   0:13736  
+ 1st Qu.:  900000   1st Qu.:  300000   1st Qu.:275412   1: 6632   1st Qu.:  795396   1st Qu.: 1.000   1:19256  
+ Median : 1561935   Median :  539664   Median :279893             Median : 1397999   Median : 1.500            
+ Mean   : 2290947   Mean   :  870313   Mean   :271286             Mean   : 2086123   Mean   : 1.734            
+ 3rd Qu.: 2745242   3rd Qu.:  987124   3rd Qu.:285650             3rd Qu.: 2500000   3rd Qu.: 2.000            
+ Max.   :62166667   Max.   :33950000   Max.   :303817             Max.   :62166667   Max.   :11.000            
+                                                                                                               
+    edad_jh       edu_jh   salud_jh  trabajo_ocu_jh  pension_jh ocu_jh       log_ingh       pred_log1        
+ Min.   : 14.00   1:1783   0: 1913   4      :11601   0: 9566    0: 9566   Min.   : 0.00   Min.   :0.0004371  
+ 1st Qu.: 36.00   2:   2   1:15845   0      : 9566   1: 9137    1:23426   1st Qu.:13.58   1st Qu.:0.0439640  
+ Median : 49.00   3:9296   2: 1832   1      : 7968   2:13548              Median :14.14   Median :0.1175432  
+ Mean   : 49.52   4:4404   3:13388   2      : 1494   3:  741              Mean   :14.00   Mean   :0.2026635  
+ 3rd Qu.: 61.00   5:8601   9:   14   5      : 1265                        3rd Qu.:14.73   3rd Qu.:0.3124709  
+ Max.   :101.00   6:8903             3      :  565                        Max.   :17.95   Max.   :0.9984363  
+                  9:   3             (Other):  533                                                           
+   pred_log2          pred_log3          pred_log4          pred_pro1          pred_pro2         holdout       
+ Min.   :0.001089   Min.   :0.004575   Min.   :0.003757   Min.   :0.001077   Min.   :0.0007453   Mode:logical  
+ 1st Qu.:0.041682   1st Qu.:0.044770   1st Qu.:0.042437   1st Qu.:0.040738   1st Qu.:0.0378857   TRUE:32992    
+ Median :0.116875   Median :0.117917   Median :0.115029   Median :0.123194   Median :0.1201720                 
+ Mean   :0.202255   Mean   :0.202254   Mean   :0.202320   Mean   :0.201445   Mean   :0.2012731                 
+ 3rd Qu.:0.309328   3rd Qu.:0.308947   3rd Qu.:0.308503   3rd Qu.:0.314483   3rd Qu.:0.3144935                 
+ Max.   :0.997191   Max.   :0.997945   Max.   :0.997304   Max.   :0.999825   Max.   :0.9996689                 
+                                                                                                               
